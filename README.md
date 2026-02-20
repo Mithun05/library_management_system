@@ -3,14 +3,14 @@
 Pre-requisites
 --------------
 
-- Clone the git repo : <URL>
+- Clone the git repo : git@github.com:Mithun05/library_management_system.git
 - Make sure docker is running locally on the system
 
 Backend Setup
 -------------
 - Open Terminal (Window-1).
 - Navigate to the backend service directory
-- cd neighborhood-library-service/libraryservicebackend
+  cd libraryservicebackend
 - Run the following commands to build and start the backend service:
   docker compose build
   docker compose up -d
@@ -22,7 +22,7 @@ Frontend Setup
 
 - Open Terminal (Window-2).
 - Navigate to the frontend service directory
-- cd neighborhood-library-service/libraryservicefrontend
+  cd libraryservicefrontend
 - Run the following commands to build and start the frontend service:
   docker compose build
 - Once the forntend service is running, the frontend application will be available at:
