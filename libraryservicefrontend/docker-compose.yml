@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ./
+    container_name: library_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules # Prevents local node_modules from overwriting container
